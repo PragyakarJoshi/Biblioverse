@@ -1,0 +1,112 @@
+* {
+	font-family: 'Mukta Mahee', sans-serif;
+}
+.navbar-brand {
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+}
+.navbar {
+	background-color: rgba(255, 255, 255, 0.9);
+	border: none;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #337ab7;
+}
+.landing {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../images/thiss.jpg');
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	flex-direction: column;
+	text-align: center;
+}
+.title {
+	font-family: 'Lobster', cursive;
+	color: #ffffff;
+	font-size: 50px;
+	text-align: center;
+}
+.subtitle {
+	font-size: 25px;
+	color: #ffffff;
+}
+.btn-start {
+	background-color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	position: absolute;
+	bottom: 0px;
+	font-size: 16px;
+	transition: 0.4s ease;
+}
+.btn-start:hover {
+	padding-bottom: 50px;
+	transition: 0.4s ease;
+}
+.section-title {
+	text-align: center;
+	margin-top: 70px;
+}
+.section-title::after {
+	content: '';
+	display: block;
+	margin:0 auto;
+	width:100px;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+	border: 2px solid #337ab7;
+}
+.section-detail{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.feat-box {
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 20px 30px 20px 30px;
+}
+.feat-box:nth-child(2){
+	transform: scale(1.2);
+}
+.feat-box:hover {
+	box-shadow: 0px 0px 30px rgb(227, 227, 227);
+	transition: 0.4s ease;
+	/* cursor: pointer; */
+}
+.feat-title {
+	font-family: 'Lobster', cursive;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.btn-feat {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-size: 13px;
+	background: linear-gradient(rgb(65, 148, 218), rgb(51, 123, 184));
+	border:0;
+	/* background: rgb(51, 123, 184); */
+	transition: 0.4s ease;
+	color: #fff;
+	border-radius: 0;
+}
+.btn-feat:hover{
+	background-color: rgba(51, 123, 184,0.5);
+	color: #fff;
+	transition: 0.4s ease;
+}
+.join-container {
+	/*background-image: url('../images/join.jpg');*/
+	height: 50vh;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.inverse {
+	color: #ffffff;
+}
+
