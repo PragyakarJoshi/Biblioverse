@@ -54,7 +54,6 @@
   padding-left: 300px;
   transition: 0.4s ease;
 }
-
 .cd-panel {
   z-index: 100;
 }
@@ -94,5 +93,4 @@
   bottom: 10px;
   font-size: 16px;
   letter-spacing: 1px;
-
 }
