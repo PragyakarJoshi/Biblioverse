@@ -31,12 +31,12 @@
   background-color: rgb(255, 255, 255);
   color: var(--secondary-color);
 }
-.search-result-title {
+.container-title {
 	margin-top: 50px;
 	letter-spacing: 8px;
   font-family: var(--title-font);
 }
-.search-result-title::after {
+.container-title::after {
 	content: '';
 	display: block;
 	width: 100px;

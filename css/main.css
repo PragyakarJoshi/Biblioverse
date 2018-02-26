@@ -6,13 +6,6 @@
   --common-font: 'Mukta Mahee', sans-serif;
   --primary-shadow: 0px 0px 40px rgb(227, 227, 227);
 }
-/* :root {
-  --primary-color: rgba(246, 217, 191, 0.7);
-  --secondary-color: rgb(255, 218, 185);
-  --special-font: 'Playball', cursive;
-  --common-font: 'Mukta Mahee', sans-serif;
-  --primary-shadow: 0px 0px 30px rgb(227, 227, 227);
-} */
 *{
   font-family: var(--common-font);
 }
@@ -104,4 +97,23 @@
 .footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  background-color: var(--primary-color);
+}
+.footer-logo {
+  font-family: var(--special-font);
+  text-align: center;
+}
+.footer-nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-nav-item {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  transition: 0.4s ease;
+}
+.footer-nav-item:hover {
+  text-decoration: none;
 }
