@@ -1,0 +1,92 @@
+:root {
+  --primary-color: rgba(65, 148, 218,0.5);
+  --secondary-color: rgb(50, 123, 184);
+  --special-font: 'Playball', cursive;
+  --title-font: 'Fjalla One', sans-serif;
+  --common-font: 'Mukta Mahee', sans-serif;
+  --primary-shadow: 0px 0px 20px rgb(227, 227, 227);
+}
+*{
+  font-family: var(--common-font);
+}
+.navbar-default .navbar-brand {
+	font-family: var(--special-font);
+	font-size: 30px;
+	color: var(--secondary-color);
+	margin-right: 10px;
+}
+.navbar {
+	background-color: rgba(255, 255, 255, 1);
+	border: 0;
+}
+.navbar-default .navbar-nav>li>a {
+	color: var(--secondary-color);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	border-bottom: 4px solid var(--secondary-color);
+	background-color: inherit;
+}
+.inverse {
+	color: #ffffff;
+}
+.btn {
+  border-radius: 0;
+  border: 0;
+}
+.btn-custom {
+  background: var(--secondary-color);
+  transition: 0.4s ease;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  border: 2px solid var(--secondary-color);
+  margin-top: 20px;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+}
+.btn-custom:hover {
+  /* background: var(--primary-color); */
+  color: rgb(255, 255, 255);
+	transition: 0.4s ease;
+}
+.btn-border {
+  border: 2px solid rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  transition: 0.2s ease;
+  letter-spacing: 2px;
+
+}
+.btn-border:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--secondary-color);
+  transition: 0.4s ease;
+}
+.landing {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+	position: relative;
+	flex-direction: column;
+	text-align: center;
+}
+.name-input-group {
+  width: 450px;
+}
+.book-name-input {
+  width: 500px;
+  border-radius: 0;
+  padding: 25px;
+  font-size: 18px;
+  border:0;
+}
+.form-control:focus {
+  border-color: rgb(255, 255, 255);
+  box-shadow: none;
+}

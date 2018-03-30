@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="container-fluid landing">
+         		<p class="rating-title">RATING GENERATOR</p>
+            <p class="rating-subtitle">by &nbsp;&nbsp;<span class="logo">Biblioverse</span></p>
+            <br>
+            <form action="/result" method="POST">
+              <div class="input-group name-input-group">
+                 <input type="text" class="form-control book-name-input" placeholder="Enter a book name" name="book_name">
+                 <span class="input-group-btn">
+                      <button class="btn btn-rate" type="submit" name="book-name"><i class="fa fa-arrow-circle-right"></i></button>
+                 </span>
+              </div>
+            </form>
+
+            <a href="" class="btn-icon">
+              <i class="fa fa-info"></i>
+            </a>
+       	</div>
+        <div class="cd-panel cd-panel-top from-top">
+          <div class="cd-panel-container cd-panel-map">
+              <div class="container cd-panel-content">
+                  <h1 class="text-center panel-title">HOW THE RATINGS ARE GENERATED</h1>
+                  <br>
+                  <button class="btn-back cd-panel-close">BACK</button>
+              </div>
+          </div>
+        </div>
+
+
+    <script>
+    
+    </script>
+
+
+
+{% endblock %}

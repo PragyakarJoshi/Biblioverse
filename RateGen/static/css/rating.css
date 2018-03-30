@@ -1,0 +1,91 @@
+.rating-title {
+  font-size: 43px;
+	color: var(--secondary-color);
+	letter-spacing: 2px;
+  font-family: var(--title-font);
+}
+.rating-subtitle {
+  font-size: 18px;
+  color: var(--secondary-color);
+  padding:0;
+  margin: -10px 0px 20px 0;
+}
+.logo {
+  font-family: var(--special-font);
+  font-size: 25px;
+}
+.name-input-group {
+  width: 500px;
+  box-shadow: var(--primary-shadow);
+}
+.book-name-input {
+  width: 500px;
+  border-radius: 0;
+  padding: 23px;
+  font-size: 15px;
+  border:0;
+}
+.btn-rate {
+  padding: 7.5px 15px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  transition: 0.4s ease;
+  font-family: var(--title-font);
+  background-color: rgb(255, 255, 255);
+  color: var(--secondary-color);
+}
+.form-control:focus {
+  border-color: rgb(255, 255, 255);
+  box-shadow: none;
+}
+.btn-icon {
+  color: var(--secondary-color);
+  background: rgb(255, 255, 255);
+  position: fixed;
+  padding: 10px 20px;
+  border-radius: 50px;
+  bottom: 20px;
+  right: 50px;
+  transition: 0.4s ease;
+  box-shadow: var(--primary-shadow);
+}
+.btn-icon .fa-info {
+  font-size: 30px;
+}
+.btn-icon:hover {
+  padding-left: 300px;
+  transition: 0.4s ease;
+}
+.cd-panel {
+  z-index: 100;
+}
+.panel-title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: var(--title-font);
+}
+.panel-title::after {
+	content: '';
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+	border: 2px solid var(--secondary-color);
+}
+.panel-text {
+  font-size: 17px;
+}
+.btn-back {
+  border: 0;
+  padding: 10px 50px;
+  font-size: 15px;
+  font-family: var(--title-font);
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  background-color: var(--primary-color);
+}
+.btn-back:hover {
+  background-color: rgb(92, 174, 224);
+  transition: 0.4s ease;
+}
