@@ -1,3 +1,3 @@
-<h1>BiblioVerse</h1>
+<h1>Byblio</h1>
 
 The name says it all (or does it?)
