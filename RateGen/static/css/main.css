@@ -90,3 +90,10 @@
   border-color: rgb(255, 255, 255);
   box-shadow: none;
 }
+.btext{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+}

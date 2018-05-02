@@ -2,22 +2,24 @@
 
 {% block body %}
 
-<div class="container-fluid landing">
-         		<p class="rating-title">RATING GENERATOR</p>
-            <p class="rating-subtitle">by &nbsp;&nbsp;<span class="logo">Biblioverse</span></p>
-            <br>
-            <form action="/result" method="POST">
-              <div class="input-group name-input-group">
-                 <input type="text" class="form-control book-name-input" placeholder="Enter a book name" name="book_name">
-                 <span class="input-group-btn">
-                      <button class="btn btn-rate" type="submit" name="book-name"><i class="fa fa-arrow-circle-right"></i></button>
-                 </span>
-              </div>
-            </form>
+<div class="container-fluid landing" id="particles-js">
+    <div class="btext">
+           		<p class="rating-title">RATING GENERATOR</p>
+              <p class="rating-subtitle">by &nbsp;&nbsp;<span class="logo">Byblio</span></p>
+              <br>
+              <form action="/result" method="POST">
+                <div class="input-group name-input-group">
+                   <input type="text" class="form-control book-name-input" placeholder="Enter a book name" name="book_name">
+                   <span class="input-group-btn">
+                        <button class="btn btn-rate" type="submit" name="book-name"><i class="fa fa-arrow-circle-right"></i></button>
+                   </span>
+                </div>
+              </form>
 
-            <a href="" class="btn-icon">
-              <i class="fa fa-info"></i>
-            </a>
+              <a href="" class="btn-icon">
+                <i class="fa fa-info"></i>
+              </a>
+            </div>
        	</div>
         <div class="cd-panel cd-panel-top from-top">
           <div class="cd-panel-container cd-panel-map">
@@ -29,9 +31,12 @@
           </div>
         </div>
 
-
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
-    
+      particlesJS.load('particles-js', '{{ url_for('static', filename='js/particles.json') }}',
+          function(){
+              console.log('particles.json loaded...')
+          })
     </script>
 
 

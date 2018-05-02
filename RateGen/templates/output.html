@@ -1,8 +1,16 @@
 {% extends 'layout.html' %}
 
 {% block body %}
+<div class="container">
 
-<h2>Output Page</h2>
-<p>{{book_name}}</p>
-
+  <h2>{{book_name}}</h2>
+  <p>Author: </p>
+  <p>Summary: </p>
+  <br>
+  <p>Total Reviews Extracted: </p>
+  <p>Total Positive Reviews: </p>
+  <p>Total Negative Reviews: </p>
+  <br>
+  <h3>Rating out of 5: </h3>
+</div>
 {% endblock %}

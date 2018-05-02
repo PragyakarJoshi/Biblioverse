@@ -3,12 +3,13 @@
 	color: var(--secondary-color);
 	letter-spacing: 2px;
   font-family: var(--title-font);
+  text-shadow: var(--primary-shadow);
 }
 .rating-subtitle {
   font-size: 18px;
   color: var(--secondary-color);
   padding:0;
-  margin: -10px 0px 20px 0;
+  margin: 40px 0px 30px 0;
 }
 .logo {
   font-family: var(--special-font);
@@ -17,6 +18,7 @@
 .name-input-group {
   width: 500px;
   box-shadow: var(--primary-shadow);
+  margin: 0 auto;
 }
 .book-name-input {
   width: 500px;
@@ -24,6 +26,7 @@
   padding: 23px;
   font-size: 15px;
   border:0;
+
 }
 .btn-rate {
   padding: 7.5px 15px;
@@ -50,7 +53,8 @@
   box-shadow: var(--primary-shadow);
 }
 .btn-icon .fa-info {
-  font-size: 30px;
+  font-size: 22px;
+  padding: 2px;
 }
 .btn-icon:hover {
   padding-left: 300px;
