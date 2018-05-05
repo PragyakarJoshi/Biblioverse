@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Mukta+Mahee|Playball');
+
 :root {
-  --primary-color: rgba(65, 148, 218,0.5);
+  --primary-color: rgba(65, 148, 218,0.4);
   --secondary-color: rgb(50, 123, 184);
   --special-font: 'Playball', cursive;
   --title-font: 'Fjalla One', sans-serif;
@@ -71,6 +73,7 @@
 	align-items: center;
 	background-size: cover;
 	height: 100vh;
+  background-color: var(--secondary-color);
 	background-attachment: fixed;
 	position: relative;
 	flex-direction: column;

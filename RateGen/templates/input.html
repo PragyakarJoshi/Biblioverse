@@ -2,10 +2,10 @@
 
 {% block body %}
 
-<div class="container-fluid landing" id="particles-js">
+<div class="container-fluid landing">
     <div class="btext">
            		<p class="rating-title">RATING GENERATOR</p>
-              <p class="rating-subtitle">by &nbsp;&nbsp;<span class="logo">Byblio</span></p>
+              <p class="rating-subtitle">by &nbsp;&nbsp;<span class="logo">ShopSpy</span></p>
               <br>
               <form action="/result" method="POST">
                 <div class="input-group name-input-group">
@@ -30,15 +30,4 @@
               </div>
           </div>
         </div>
-
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script>
-      particlesJS.load('particles-js', '{{ url_for('static', filename='js/particles.json') }}',
-          function(){
-              console.log('particles.json loaded...')
-          })
-    </script>
-
-
-
 {% endblock %}

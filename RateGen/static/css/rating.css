@@ -1,15 +1,15 @@
 .rating-title {
   font-size: 43px;
-	color: var(--secondary-color);
+	color: #fff;
 	letter-spacing: 2px;
   font-family: var(--title-font);
-  text-shadow: var(--primary-shadow);
+  white-space: nowrap;
 }
 .rating-subtitle {
   font-size: 18px;
-  color: var(--secondary-color);
+  color: #fff;
   padding:0;
-  margin: 40px 0px 30px 0;
+  margin: 40px 0px 40px 0px;
 }
 .logo {
   font-family: var(--special-font);
@@ -17,7 +17,6 @@
 }
 .name-input-group {
   width: 500px;
-  box-shadow: var(--primary-shadow);
   margin: 0 auto;
 }
 .book-name-input {
@@ -45,20 +44,18 @@
   color: var(--secondary-color);
   background: rgb(255, 255, 255);
   position: fixed;
-  padding: 10px 20px;
+  padding: 12px 18px;
   border-radius: 50px;
   bottom: 20px;
   right: 50px;
-  transition: 0.4s ease;
-  box-shadow: var(--primary-shadow);
+  transition: 0.2s ease;
 }
 .btn-icon .fa-info {
   font-size: 22px;
   padding: 2px;
 }
 .btn-icon:hover {
-  padding-left: 300px;
-  transition: 0.4s ease;
+  padding: 18px 24px;
 }
 .cd-panel {
   z-index: 100;
@@ -92,4 +89,45 @@
 .btn-back:hover {
   background-color: rgb(92, 174, 224);
   transition: 0.4s ease;
+}
+.navigation
+{
+  height: 60px;
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+.btn-navs {
+  color: #fff;
+  line-height: 60px;
+}
+.btn-navs:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+.btn-return {
+  font-size: 30px;
+}
+.btn-detail {
+  text-align: right;
+  font-size: 20px;
+}
+.page-title {
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: var(--title-font);
+  line-height: 60px;
+}
+.page-subtitle {
+  font-size: 15px;
+  color: #fff;
+  padding:0;
+  margin: 40px 0px 40px 0px;
+}
+.page-logo {
+  font-family: var(--special-font);
+  font-size: 27px;
+  line-height: 60px;
+  color: #fff;
+  letter-spacing: 2px;
 }
