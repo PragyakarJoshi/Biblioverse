@@ -25,8 +25,8 @@
   padding: 23px;
   font-size: 15px;
   border:0;
-
 }
+
 .btn-rate {
   padding: 7.5px 15px;
   font-size: 22px;
@@ -118,7 +118,7 @@
   font-family: var(--title-font);
   line-height: 60px;
 }
-.page-subtitle {
+.page-subtitle {</center>
   font-size: 15px;
   color: #fff;
   padding:0;
@@ -130,4 +130,81 @@
   line-height: 60px;
   color: #fff;
   letter-spacing: 2px;
+}
+.rating{
+  text-align: center;
+  font-size: 120px;
+  color: var(--secondary-color);
+}
+.rating-span {
+  font-size: 30px;
+  font-weight: 700;
+}
+.book-name {
+  font-size: 40px;
+  font-family: var(--title-font);
+  text-align:center;
+  color: rgb(83, 83, 83);
+}
+.book-author {
+  color: rgba(83, 83, 83, 0.4);
+  font-size: 18px;
+  text-align: center;
+}
+.book-url {
+  color: rgba(83, 83, 83, 0.4);
+  font-size: 15px;
+}
+.digit {
+  font-family: var(--title-font);
+  font-size: 50px;
+}
+.total {
+  text-align: center;
+  color: rgb(0, 138, 181);
+}
+.positive {
+  text-align: center;
+  color: rgb(0, 149, 78);
+}
+.negative {
+  text-align: center;
+  color: rgb(217, 36, 36);
+}
+.stats {
+  margin-top: 50px;
+}
+.stat-label {
+  font-family: var(--title-font);
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.rating {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.error-text {
+  color: #fff;
+  font-size: 16px;
+}
+@media (max-width:480px) {
+
+  .name-input-group {
+    width: 350px;
+  }
+  .btn-icon {
+    right: 45%;
+  }
+
 }

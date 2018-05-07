@@ -1,0 +1,53 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <div class="navigation">
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
+        <a href="/" class="btn-navs btn-return">
+          <i class="fas fa-angle-left"></i>
+        </a>
+      </div>
+      <div class="col-xs-4 text-center">
+      <span class="page-logo">ShopSpy</span>
+      </p>
+      </div>
+      <div class="col-xs-4 text-right">
+        <a href="" class="btn-navs btn-detail">
+          <i class="fas fa-info"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <br><br><br><br>
+  <div class="container">
+    <p class="rating">{{ rating }}<span class="rating-span"> / 5</span></p>
+    <p class="book-name">{{book_name}}</h2>
+    <p class="book-author">by {{ book_author }} </p>
+    <center>
+        <a href="{{book_url}}" class="book-url" target="_blank">view details</a>
+    </center>
+    <br><br>
+    <hr>
+    <div class="row stats">
+      <div class="col-sm-4 total">
+        <p class="digit total-reviews-digit count">{{total_reviews}}</p>
+        <p class="stat-label">Total Reviews</p>
+        <br>
+      </div>
+      <div class="col-sm-4 positive ">
+        <p class="digit total-positive-digit count">{{total_positives}}</p>
+        <p class="stat-label">Positive Reviews</p>
+        <br>
+      </div>
+      <div class="col-sm-4 negative">
+        <p class=" digit total-negative-digit count">{{total_negatives}}</p>
+        <p class="stat-label">Negative Reviews</p>
+        <br>
+      </div>
+    </div>
+  </div>
+{% endblock %}

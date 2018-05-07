@@ -5,7 +5,6 @@ import pickle
 from DataCleaner import cleaner
 from ReviewGrabber import GetBookReviews
 
-
 def SentimentAnalyzer(review):
 	f = open('data/classified.pickle', 'rb')
 	classifier = pickle.load(f)
@@ -28,5 +27,7 @@ def RatingGenerator(book_name):
 	total_reviews = total_positives + total_negatives
 	stars = (total_positives * 5) / total_reviews
 	rating = round(stars, 2)
+	
+	return rating, total_reviews, total_positives, total_negatives
 
 # RatingGenerator('Steve Jobs')
